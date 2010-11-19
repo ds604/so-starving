@@ -1,0 +1,35 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>FMl</title>
+  <style>
+  .author {
+    font-style:italic;
+  }
+  table tr td {
+    border-bottom: 1px solid;
+  }
+  </style>
+</head>
+
+<body>
+  <table>
+    <% for post in @fb_data %>
+      <% if not post['message'].nil? %>
+        <tr>
+            <td>
+              <img src="https://graph.facebook.com/<%= post['from']['id'] %>/picture" />
+            </td>
+            <td>
+              <span class="author"><%= post['from']['name'] %>: </span><br/>
+              <%= post['message'] %>
+            </td>
+          </div>
+        </tr>
+      <% end %>
+    <% end %>
+  </ul>
+</body>
+</html>

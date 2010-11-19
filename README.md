@@ -1,5 +1,5 @@
 This is a set of apps which creates the same application in various 
-Python web micro-frameworks. 
+Python/Ruby web micro-frameworks. 
 
 The app(s) talks to Facebook, and finds out recent people
 who have posted a public status with the text "so starving".
@@ -7,6 +7,8 @@ who have posted a public status with the text "so starving".
 This idea came from reading [Onion](http://www.theonion.com/articles/i-am-so-starving-vs-i-am-so-starving,11541/).
 
 We have the same app in these frameworks. 
+
+## Python
 
 ### Microframeworks:
 
@@ -27,3 +29,13 @@ We have the same app in these frameworks.
 * [pyramid](http://docs.pylonshq.com/faq/pyramid.html)
 * [twisted](http://twistedmatrix.com/trac/wiki/TwistedProject)
 * [nagare](http://www.nagare.org/)
+
+## Ruby
+
+### Microframeworks:
+
+* [sinatra](http://www.sinatrarb.com/)
+
+### Full stack frameworks:
+
+* [rubyonrails](http://rubyonrails.org/)
