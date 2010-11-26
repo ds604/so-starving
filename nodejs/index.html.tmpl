@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>FMl</title>
+    <style>
+        .author{
+            font-style:italic;
+        }
+        li{
+            list-style: none;
+        }
+        .picture, .message{
+            float:left;
+	    clear:both;
+        }
+    </style>
+</head>
+<body>
+
+
+    <ul>
+        {{# data }}
+            <li>
+                <div>
+                    <div class="picture">
+                       <img src="https://graph.facebook.com/{{# from }}{{ id }}{{/ from }}/picture" />
+                    </div>
+                    <div class="message">
+                                        {{ message }} : <span class="author">{{# from }}{{ name }}{{/ from }}</span>
+                    </div>
+
+                </div>
+
+
+            </li>
+        {{/ data }}
+    </ul>
+
+
+</body>
+</html>
