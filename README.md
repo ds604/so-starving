@@ -22,6 +22,8 @@ We have the same app in these frameworks.
 * [pyroutes](http://www.pyroutes.com/)
 * [webob](http://pythonpaste.org/webob/)
 
+* [fuqit](https://github.com/zedshaw/fuqit)
+
 ### Full stack frameworks:
 
 * [django](http://djangoproject.com/)
