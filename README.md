@@ -21,7 +21,6 @@ We have the same app in these frameworks.
 * [tornado](http://www.tornadoweb.org/)
 * [pyroutes](http://www.pyroutes.com/)
 * [webob](http://pythonpaste.org/webob/)
-
 * [fuqit](https://github.com/zedshaw/fuqit)
 
 ### Full stack frameworks:
